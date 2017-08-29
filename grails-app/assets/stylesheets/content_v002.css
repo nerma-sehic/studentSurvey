@@ -1,0 +1,134 @@
+.first-row-on-page {
+	margin: 20px 0;
+}
+
+a.purple-color-text:hover {
+	color: #4e2675 !important;
+}
+
+.purple-color-text {
+	color: #4e2675 !important;
+}
+
+.scenes-holder {
+	background-color: #fff;
+	border: 1px solid #d0d0d0;
+	border-radius: 5px;
+}
+
+.purple-color-background {
+	background-color: #4e2675 !important;
+	color: #ffffff !important;
+}
+
+.purple-color-background:hover {
+    background-color: #402060 !important;
+    color: #ffffff !important;
+}
+
+.title-of-page {
+	padding: 2px;
+	font-size: 14pt;
+}
+
+.total-hours-for-user {
+	padding: 6px;
+}
+
+.custom-table {
+	/*border: 1px solid #d0d0d0;*/
+	border-radius: 5px;
+	background-color: #ffffff;
+	line-height: 3em;
+}
+
+.custom-table-header  {
+	border: 1px solid #d0d0d0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 0 0.5%;
+	font-weight: bold;
+}
+
+.custom-table-data-one-row {
+	border-bottom: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	padding: 0 0.5%;
+}
+
+.user-records-table-data-one-record, .reader-records-table-data-one-record, .group-screens-table-data-one-screen {
+	border-bottom: 1px dotted #d0d0d0;
+}
+
+.user-records-table-data-one-record-sides {
+	border-left: 1px dotted #d0d0d0;
+	border-right: 1px dotted #d0d0d0;
+}
+
+.reader-records-table-data-one-record-sides, .grup-screens-table-data-one-screen-sides {
+	border-left: 1px dotted #d0d0d0;
+}
+
+.custom-table-footer {
+	border-bottom: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 1.2em;
+	padding: 0 0.5%;
+}
+
+.overtime-input {
+    width: 100%;
+    line-height: 1em;
+    border-radius: 3px;
+}
+
+.pagination-link {
+	color: #808080;
+}
+
+.pagination-link:hover {
+	color: #4e2675;
+}
+
+.pagination-current-page {
+	color: #000000;
+	font-weight: bold;
+}
+
+.pagination-pages-separator {
+	margin: 0 5px;
+}
+
+.new-entry-popup, .new-request-popup, .export-reader-logs-popup {
+	display: none;
+}
+
+.col-sortable > a {
+	color: #4e2675;
+}
+
+.unknownRecords-holder {
+	display: none;
+}
+
+.userRFID-holder:hover{
+	background-color: #4e2675;
+	color: white;
+	cursor: pointer;
+}
+
+.export-btn {
+	margin-left: 10px;
+}
+
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
+	background-color: #4e2675 !important;
+}
+
+.static-ip-data-holder{
+	display: none;
+}

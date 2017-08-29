@@ -1,0 +1,255 @@
+
+
+#playtimeTable a {
+	color:#da3500;
+	font-weight:bold;
+}
+
+#playtimeTable{
+	position: relative !important;
+	float: left !important;
+	width: 377px !important;
+	overflow: hidden !important;
+	text-overflow: ellipsis !important; 
+	white-space: nowrap !important;
+}
+
+.playlist-select{
+	position: relative;
+	float: right;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-top: 12px;
+	display:none;
+}
+
+#selectedPlaylist {
+	font-size: 22px;
+	float: left;
+	position: relative;
+	margin-left: 59px;
+	margin-top: 15px;
+}
+
+.playlist-link{
+	cursor:pointer;
+}
+
+.template_upload{
+	margin-left: 8px;
+}
+
+#CreateVideoContainer1{
+	margin: 15px auto 10px;
+	width: 33%;
+	position: relative;
+}
+
+#template_textarea {
+	margin-left:15px;
+	margin-bottom:5px;
+	height: 100px;
+}
+.template_loop *
+{
+	color:#888888 !important;
+}
+.template_loop{
+	position: relative;
+	float: left;
+	width: 90%;;
+	height: 250px;
+	margin: 20px 13px;
+	-moz-box-shadow: 0px 2px 12px #818181;
+	box-shadow: 0px 2px 12px #818181;
+	-webkit-box-shadow: 0px 2px 19px #818181;
+
+	border-radius: 5px;
+	background-color: rgb(241, 241, 241);
+}
+
+.template_loop .template_loop_img1 {
+	position: absolute;
+	width: 280px;
+	height:157px;
+	margin-left: 12px;
+	margin-top: 12px;
+	border-radius: 4px;
+}
+
+.template_loop .template_loop_img2 {
+	position: absolute;
+	left: -12px;
+	bottom: 16px;
+}
+
+.template_loop .template_name{
+	position: absolute;
+	top: 190px;
+	left: 12px;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 19px;
+	color: #868686;
+}
+
+.template_loop .template_duration{
+	position: absolute;
+	bottom: 8px;
+	right: 10px;
+	font-family: arial;
+	font-size: 13px;
+	color: #888888;
+}
+
+.template_loop .template_loop_text{
+	position: absolute;
+	bottom: 14px;
+	left: 40px;
+	font-family: arial;
+	font-size: 13px;
+	color: #888888;
+}
+
+.align_right_numbers{
+	text-align:right;
+}
+
+#backgroundPopup {
+    z-index:1;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;
+    top:0px;
+    left:0px;
+}
+
+
+#toPopup {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    display: none;
+   font-size: 14px;
+	left: 43%;
+	position: fixed;
+	top: 22%;
+	width: 200px;
+	z-index: 2;
+}
+
+#qrPopup {
+    font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 10px solid #ccc;
+    border-radius: 3px 3px 3px 3px;
+    color: #333333;
+    display: none;
+   font-size: 14px;
+	left: 43%;
+	position: fixed;
+	top: 22%;
+	width: 200px;
+	z-index: 2;
+}
+
+div.loader {
+    background: url("../images/skin/spinner.gif") no-repeat scroll 0 0 transparent;
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 9999;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    margin-left: -10px;
+}
+div.close {
+    background: url("../images/skin/closebox.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    height: 30px;
+    position: absolute;
+    right: -25px;
+    top: -24px;
+    width: 30px;
+}
+span.ecs_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+div#popup_content {
+    margin: 4px 7px;
+}
+
+.checkboxButtons {
+	margin-left: 242px;
+	margin-bottom: 3px;
+}
+
+#showAll {
+	display: inline;
+	position: relative;
+	float: right;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+#talkbubble {
+	display: inline-block;
+	margin-top:15px;
+	border: 1px solid #dddddd;
+	word-break: break-word;
+	width: 304px;
+	padding:10px;
+    min-height: 100px;
+    max-height:350px;
+    background: #ffffea;
+    position: relative;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+}
+#talkbubble:before,
+#talkbubble:after {
+   content:"";
+   position: absolute;
+   right: 100%;
+   top: 26px;
+   width: 0;
+   height: 0;
+   border-top: 13px solid transparent;
+   border-right: 26px solid #ffffea;
+   border-bottom: 13px solid transparent;
+}
+
+#talkbubble:before {
+    left: -27px;
+	z-index: 0;
+	border-right-color: #dddddd;
+}

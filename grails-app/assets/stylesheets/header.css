@@ -1,0 +1,186 @@
+/* Common styles for main Header */
+
+/**
+ *  Header
+ */
+.header {
+    /*height: 80px;*/
+    width: 100%;
+    background-color: #FFFFFF;
+    border-bottom: double #DDD;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.logo {
+    float: left;
+    margin-top: 10px;
+    max-width: 300px;
+}
+.logo-title {
+    text-align: right;
+    margin:0; padding:0;
+}
+.logo img {
+    width: 100%;
+}
+
+/**
+ *  Logged in Menu (app switcher)
+ */
+.loggedInContainer{
+    float: right;
+    margin-top: 20px;
+}
+.loggedInMenu{
+    float: left;
+    margin-right: 5px;
+    margin-top: 4px;
+    color: #4e2675;
+}
+.loggedIn-username{
+    float:left;
+    color: #333333;
+}
+.switchApps{
+    float: right;
+}
+.logout-menu{
+    float: right;
+}
+
+/*.username {*/
+    /*line-height: 2;*/
+/*}*/
+
+.userDropdownMenu-username {
+    background-color: #f0f0f0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.userDropdownMenu-option, .userDropdownMenu-username {
+    padding: 10px;
+    border-bottom: 1px dotted #d0d0d0;
+}
+.userDropdownMenu-option:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #4e2675;
+}
+
+/* fix for logout button which is a form post */
+.userDropdownMenu-option-lastOne {
+    border: none;
+    background: none;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.userDropdownMenu-option-lastOne:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #4e2675;
+}
+/* end fix */
+
+#changePasswordForm {
+    padding: 10px;
+    background-color: #000000;
+}
+.icon-app-switcher {
+    cursor: pointer;
+    margin-left: 12px;
+}
+.switch-apps-popup {
+    display: none;
+}
+.app-switcher-pointer {
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    margin: 0 0 0 20px;
+    position: absolute !important;
+    top: 30px;
+    left: -17px;
+    z-index: 3;
+    border-left: 1px solid #d0d0d0;
+    border-top: 1px solid #d0d0d0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.apps-holder {
+    position: absolute;
+    width: 295px;
+    padding: 10px;
+    z-index: 2;
+    top: 35px;
+    left: -250px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 15px #d0d0d0;
+}
+a#redirect-attend, a#redirect-screens, a#redirect-tasks, a#redirect-concierge, a#redirect-exchange {
+    display: inline-block;
+    float: left;
+    color: #333333;
+}
+.app-icon-holder {
+    margin: 0;
+    padding: 10px;
+    width: 90px;
+    height: 80px;
+}
+.app-icon-holder:hover {
+    cursor: pointer;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+}
+.app-icon {
+    height: 35px;
+    margin: 0 auto;
+}
+.app-icon>img {
+    width: 48px;
+    height: 48px;
+}
+.app-text {
+    margin: 10px auto;
+    color: #333;
+}
+.dropdown-menu-button {
+    background: url("../images/dropdown-menu.png") no-repeat center;
+    padding: 14px 13px;
+}
+#userDropdownMenu {
+    display: none;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    z-index: 200;
+    /*position: relative;*/
+
+    /* new */
+    clear: both;
+    position: absolute;
+    right: 15px;
+    top: 52px;
+}
+
+.searchWrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 60px;
+
+}
+
+.select2-container {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

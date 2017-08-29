@@ -1,0 +1,297 @@
+/* parent */
+
+.ht-pills{
+    display: inline-block;  /* center pills (required text-center on parent) */
+    color: white;
+    /*margin-top: 2em !important;*/
+}
+/* normal pill */
+.ht-pills > li{
+    font-weight: bold;
+    text-decoration:none;
+    padding: 0 10px !important;
+	text-align:center;
+}
+
+.ht-pills > li + li{
+    margin-left: 0;
+}
+.ht-pills > li:first-child{
+	padding-left: 0 !important;
+}
+.ht-pills > li:last-child{
+	padding-right: 0 !important;
+}
+.ht-pills > li > a{
+    /*
+    color: #333333;
+    min-width: 140px;
+    padding: 1.1em 2.5em;
+    font-size: 1.1em;
+    border: 1px solid #a0a0a0;
+    background-color: #E6E6E6;
+    */
+    padding: 1.1em 0;
+    /*min-width: 140px;*/
+    background-color: #e6e6e6;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	color: #333333;
+	font-size: 14px;
+	font-weight: 600;
+}
+/* hover pill */
+.ht-pills > li > a:hover, .ht-pills > li > a:focus {
+    text-decoration: none;
+    color: white;
+    background-color: #4e2675;
+    border: 1px solid #4e2675;
+}
+/* active pill */
+.ht-pills > li.active > a, .ht-pills > li.active > a:hover, .ht-pills > li.active > a:focus{
+    background-color: #4e2675;
+    border: 1px solid #4e2675;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 30px;
+    height: 5px;
+    border-radius: 1px;
+    background-color: #4e2675;
+}
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/* responsive menu */
+@media (max-width: 767px) {
+
+    .navbar-collapse {
+        clear: left;
+        text-align: left;
+        padding-left: 5px;
+        padding-right: 0;
+    }
+    .ht-pills{
+        width: 100%;
+        margin-top: 0;
+        text-align:left !important;
+    }
+    .nav-pills > li {
+        float: none;
+        font-weight: normal;
+        padding: 0 !important;
+        text-align:left !important;
+    }
+    .ht-pills > li + li{
+        margin-left: 0;
+    }
+    .ht-pills > li > a {
+        text-transform: uppercase;
+        padding: 7px 0 7px 10px;
+        border-radius: 0;
+        color: #CBCACA;
+        border: none;
+		text-align:left !important;
+        /*background-color: #222;*/
+        background-color:#4e2675;
+    }
+    .ht-pills > li > a:hover, .ht-pills > li > a:focus {
+        border: none;
+
+        /*background-color: #222;*/
+        background-color:#4e2675;
+    }
+    .ht-pills > li.active > a, .ht-pills > li.active > a:hover, .ht-pills > li.active > a:focus {
+        color: white;
+        border: none;
+
+        /*background-color: #222;*/
+        background-color:#4e2675;
+    }
+    .navbar-toggle{
+        margin-bottom: 0;
+    }
+}
+
+/* otherwise before the breakpoint menu would stack in original state */
+@media (min-width: 768px) {
+    .navbar-collapse {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ht-pills{
+        padding: 0 !important;
+        text-align:left !important;
+    }
+    .ht-pills > li{
+        padding: 0 10px !important;
+        text-align:left !important;
+    }
+    .nav-pills > li {
+        padding: 0 10px !important;
+        margin: 0 !important;
+        text-align:left !important;
+    }
+    .ht-pills > li + li{
+        padding: 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .ht-pills{
+        padding: 0 !important;
+    }
+    .nav-pills > li {
+        /*padding: 0 !important;*/
+        margin: 0 !important;
+        text-align:left !important;
+    }
+    .ht-pills > li + li{
+        padding: 0;
+    }
+}
+
+/* SUBMENU */
+ul.crm_subNav{
+	display: table-row;
+	margin: 0;
+	padding: 0;
+}
+
+ul.crm_subNav li{
+	list-style: none;
+	display: table-cell;
+	text-align: center;
+}
+ul.crm_subNav li a {
+  display: block;
+}
+.reports-sub-nav-holder
+{
+	background-color: #fff;
+  	border: 1px solid #ddd;
+ 	border-radius: 5px;
+  	
+  	height: 55px;
+
+}
+.reports-sub-nav-holder > div
+{
+	display:table;
+	height:100% !important;
+	table-layout:fixed;
+}
+
+/*.crm_subNav{*/
+    /*list-style: none;*/
+    /*height: 100%;*/
+    /*padding:0;*/
+    /*margin:0;*/
+/*}*/
+
+/*.crm_subNav li:first-child {*/
+    /*/!*padding-left: 10px !important;*!/*/
+    /*border-left: none !important;*/
+/*}*/
+/*.crm_subNav li:first-child a {*/
+    /*border-left: none !important;*/
+/*}*/
+
+/*.crm_subNav li{*/
+    /*display: inline-block;*/
+    /*height: 100%;*/
+    /*padding: 15px 0;*/
+    /*margin: 0;*/
+    /*border-left: 1px solid #ddd;*/
+/*}*/
+
+/*.crm_subNavActive{*/
+    /*border-bottom:2px solid #4e2675 !important;*/
+/*}*/
+
+/*.crm_subNav a, .crm_subNav a:visited{*/
+    /*color: #4e2675;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*display: block;*/
+    /*/!*border-left: 1px solid #999;*!/*/
+/*}*/
+
+/*.crm_subNav a:hover, .crm_subNav a:active {*/
+    /*color: #333333;*/
+    /*text-decoration: none;*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+/*}*/
+
+.crm_subNav{
+    list-style: none;
+    height: 100%;
+}
+.crm_subNav li:first-child {
+    /*padding-left: 10px !important;*/
+}
+.crm_subNav li:first-child a {
+    border-left: none !important;
+}
+.crm_subNav li{
+    display: inline-block;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.crm_subNav li.active{
+    border-bottom: 2px solid #4e2675;
+}
+.crm_subNav a{
+    color: #4e2675;
+    margin: 0;
+    line-height: 50px; /*padding: 15px 0;*/
+    border-left: 1px solid #CCC;
+}
+.crm_subNav a:visited {
+    /*color: #333333;*/
+    color: #4e2675;
+    text-decoration: none;
+    margin: 0;
+    line-height: 50px; /*padding: 15px 0;*/
+}
+.crm_subNav > li.active > a {
+    color: #333333;
+    /*color: #750002;*/
+    text-decoration: none;
+    margin: 0;
+    line-height: 50px; /*padding: 15px 0;*/
+}
+.crm_subNav a:hover, .crm_subNav a:active{
+    color: #333333;
+    text-decoration: none;
+    margin: 0;
+    line-height: 50px;
+}
+
+ul.crm_subNav{
+    display: table-row;
+    margin: 0;
+    padding: 0;
+}
+
+ul.crm_subNav li{
+    list-style: none;
+    display: table-cell;
+    text-align: center;
+}
+
+ul.crm_subNav li a{
+    display: block;
+}
+
+
+.activeLink{
+	color: #333333 !important;
+}
+

@@ -1,0 +1,78 @@
+.main-navigation-button, .main-navigation-button-with-left-margin {
+	width: 16%;
+	height: 100%;
+	float: left;
+	background-color: #e0e0e0;
+	padding: 1em 0;
+	border: 1px solid #a0a0a0;
+	border-radius: 5px;
+	text-align: center;
+	font-size: medium;
+	color: #000000;
+}
+
+.main-navigation-button:hover, .main-navigation-button-with-left-margin:hover {
+	background-color: #4e2675;
+	color: #ffffff;
+}
+
+.main-navigation-button-with-left-margin {
+	margin-left: 5%;
+}
+
+.main-navigation-button-selected {
+	background-color: #4e2675;
+	color: #ffffff;
+}
+
+.minimized-menu-list, .minimized-sub-menu-list {
+	display: none;
+	background-color: #000000;
+}
+
+.minimized-menu-option {
+	border-bottom: 1px solid #ffffff;
+	padding: 1em 1em;
+	color: white;
+}
+
+.sub-navigation-button, .sub-navigation-button-with-left-margin {
+	width: 150px;
+	height: 100%;
+	padding: 0 10px;
+	float: left;
+	color: #4e2675;
+	/*text-align: center;*/
+}
+
+.sub-navigation-button img, .sub-navigation-button-with-left-margin img {
+	vertical-align: middle;
+	float: left;
+	width: 20px;
+}
+
+.sub-navigation-button > div, .sub-navigation-button-with-left-margin > div {
+	margin-left: 25px;
+}
+
+.sub-navigation-button-with-left-margin {
+	border-left: 1px dotted #a0a0a0;
+}
+
+.notired{
+	background:#E43C03; 
+	text-align:center; 
+	color:#FFF; 
+	font-size:12px; 
+	font-weight:bold; 
+	-moz-border-radius:6px; 
+	-webkit-border-radius:6px; 
+	border-radius:6px; 
+	width:14px; 
+	z-index:1;
+	position:relative;
+	top: -35px;
+	left: -30px;
+	padding:5px;
+	display: none;
+}

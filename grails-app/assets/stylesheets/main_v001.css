@@ -1,0 +1,162 @@
+html, body {
+	background-color: #f8f8f8;
+	margin:0;
+   	padding:0;
+   	height:100%;
+}
+
+#update-div {
+	min-height:100%;
+    position:relative;
+}
+
+/* ------------------------------------- Some custom classes that are often used ------------------------------------*/
+
+.right-floated {
+	float: right !important;
+}
+
+.left-floated {
+    float: left !important;
+    margin-right: 10px;
+}
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.no-overflow {
+	overflow: hidden;
+}
+
+.no-decoration {
+    text-decoration: none !important;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.form-row {
+	margin: 5px 0;
+}
+
+.form-buttons {
+	margin: 20px 0 10px 0;
+}
+
+.icon-32 {
+	width: 32px;
+}
+
+.icon-20 {
+	width: 20px;
+}
+
+.icon-clickable:hover {
+	cursor: pointer;
+}
+
+.fixed-height-600 {
+	height: 600px;
+} 
+
+.scrollable {
+	overflow-y: scroll;
+}
+
+/* -------------------------------------------------- Errors and messages ------------------------------------------  */
+
+.error,
+.message {
+    font-size: 0.8em;
+    line-height: 2;
+    margin: 1em 2em;
+    padding: 0.25em;
+}
+
+.message {
+    background: #f3f3ff;
+    border: 1px solid #b2d1ff;
+    color: #006dba;
+    -moz-box-shadow: 0 0 0.25em #b2d1ff;
+    -webkit-box-shadow: 0 0 0.25em #b2d1ff;
+    box-shadow: 0 0 0.25em #b2d1ff;
+}
+
+.error {
+    background: #fff3f3;
+    border: 1px solid #ffaaaa;
+    color: #cc0000;
+    -moz-box-shadow: 0 0 0.25em #ff8888;
+    -webkit-box-shadow: 0 0 0.25em #ff8888;
+    box-shadow: 0 0 0.25em #ff8888;
+}
+
+.error,
+.message {
+    padding: 0;
+}
+
+.error {
+    background: transparent url(../images/skin/exclamation.png) 0.5em 50% no-repeat;
+    text-indent: 2.2em;
+}
+
+.message {
+    background: transparent url(../images/skin/information.png) 0.5em 50% no-repeat;
+    text-indent: 2.2em;
+}
+
+/* -------------------------------------------- Content holders ------------------------------------------------------*/
+
+.header-holder {
+	padding: 10px 0;
+	border-bottom: double #DDD;
+	background-color: #FFFFFF;
+}
+
+.page-holder {
+	padding-bottom:100px;
+}
+
+.footer-holder {
+	bottom: 0;
+    position: absolute;
+	padding: 10px 0;
+	margin-top: 20px;
+    height: 100px;
+    width: 100%;
+    color: gray;
+	background-color: #111;
+}
+
+.main-content {
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 0 0.5em;
+}
+
+.main-navigation {
+	margin: 2em 0;
+}
+
+.reports-sub-nav-holder {
+	background-color: #e0e0e0;
+	border: 1px solid #a0a0a0;
+	border-radius: 5px;
+	padding: 15px 0;
+	height: 55px;
+}
+
+.reports-sub-nav-holder > div {
+	height: 100%;
+}

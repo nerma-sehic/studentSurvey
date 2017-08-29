@@ -1,0 +1,107 @@
+.sceneInformation {
+	border-bottom: 1px solid black;
+}
+
+.sceneTitle-holder {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.sceneTitle {
+	font-size: 13pt;
+}
+
+.sceneInformation-holder {
+	border-bottom: 1px dotted black;
+	margin-bottom: 10px;
+	/*min-width: 990px;*/
+}
+
+
+/*
+.scene-content-holder {
+	margin-top: 10px;
+}
+
+.sceneInformation-top-holder {
+	float: left;
+	margin-bottom: 10px;
+}
+
+.sceneInformation-top-left-holder {
+	width: 500px;
+	float: left;
+}
+
+.sceneInformation-top-right-holder {
+	float: left;
+	width: 450px;
+	margin-left: 30px;
+}
+
+.sceneInformation-top-holder-edit {
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid black;
+}
+
+.sceneInformation-top-left-holder-edit {
+	width: 360px;
+	float: left;
+}
+
+.sceneInformation-top-right-holder-edit {
+	float: left;
+	width: 540px;
+	margin-left: 30px;
+}
+
+.sceneInformation-bottom-holder {
+	float: left;
+	margin-bottom: 10px;
+}
+*/
+.video_create_textField {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.textField-label {
+	margin-right: 10px;
+}
+
+.video_create_image_upload {
+	float: left;
+	margin-bottom: 10px;
+	display: block;
+}
+
+#CreateVideoContainer2 {
+	margin-left: 247px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#CreateVideoContainer3 {
+	margin-left: 333px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+#CreateVideoContainer2 span{
+	margin-right: 10px;
+}
+
+#CreateVideoContainer2 input{
+	width: 250px;
+}
+
+.template-scene-background-image {
+	max-width: 90%;
+}
+
+.template-scene-background-image-edit {
+	max-width: 360px;
+}

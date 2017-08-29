@@ -1,0 +1,12 @@
+/* Common styles for main Footer */
+
+/**
+ *  Footer
+ */
+.footer {
+    min-height: 80px;
+    background-color: #111;
+    color: #FFF;
+    text-align: center;
+    border-top: double #DDD;
+}
